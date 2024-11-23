@@ -22,7 +22,7 @@ h1 {
     height: 100vh;
     padding: 100px;
     padding-top: 20vh;
-    background-color: rgb(233, 218, 255);
+    background-color: #FAF6E3;
 }
 
 #main-container {
@@ -35,34 +35,23 @@ h1 {
     background-color: rgb(41, 139, 41);
 }
 
-.input-containers {
-    display: flex;
-    align-items: center;
-    padding: 16px;
-    background-color: rgb(212, 189, 247);
-    border-radius: 25px;
-    margin-bottom: 6px;
-    height: 80px;
-}
-
 .icon-img {
     width: 48px;
     height: 48px;
     margin-right: 16px;
-    background-color: rgb(71, 58, 91);
+    background-color: #2A3663;
     border-radius: 25px;
     padding: 8px;
 }
 
-input {
-    font-size: 1.5rem;
-    width: 100%;
-    height: 100%;
+.input-containers {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #e4e0ce;
     border-radius: 25px;
-    padding: 8px;
-    padding-left: 16px;
-    background-color: transparent;
-    color: black;
+    margin-bottom: 6px;
+    height: 80px;
 }
 
 input {
@@ -76,7 +65,7 @@ input {
 }
 
 input::placeholder {
-    color: rgb(71, 58, 91);
+    color: #2A3663;
 }
 
 #pic {
@@ -92,10 +81,10 @@ input::placeholder {
     height: 100px;
     border-radius: 40px;
     color: rgb(255, 255, 255);
-    background-color: rgb(94, 77, 121);
+    background-color: #2A3663;
 }
 
 #signupBtn:hover {
     color: rgb(212, 189, 247);
-    background-color: rgb(71, 58, 91);
+    background-color: #432E54;
 }
